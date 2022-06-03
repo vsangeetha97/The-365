@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_calendar_View"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C6AAC6"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/prevButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_baseline_chevron_left_24" />
+
+        <TextView
+            android:id="@+id/currentdateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:padding="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="16dp"
+            android:scrollbarSize="4sp"
+            android:text="@string/currentDateString"
+            android:textSize="18sp" />
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_baseline_chevron_right_24" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3B0C3"
+        android:orientation="horizontal"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/sunTextbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#FFCCB6"
+            android:gravity="center"
+            android:text="@string/sunString"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/monTextbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#FFCCB6"
+            android:gravity="center"
+            android:text="@string/monString"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tueTextbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#FFCCB6"
+            android:gravity="center"
+            android:text="@string/tueString"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/wedTextbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#FFCCB6"
+            android:gravity="center"
+            android:text="@string/wedString"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/thuTextbox"
+            android:layout_width="43dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#FFCCB6"
+            android:gravity="center"
+            android:text="@string/thuString"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/friTextbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#FFCCB6"
+            android:gravity="center"
+            android:text="@string/friString"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/satTextbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:background="#FFCCB6"
+            android:gravity="center"
+            android:text="@string/satString"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:numColumns="7"
+        android:orientation="horizontal">
+
+    </GridView>
+
+
+</LinearLayout>

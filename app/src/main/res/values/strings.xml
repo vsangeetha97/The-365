@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">The 365</string>
+    <string name="currentDateString">Current Date</string>
+    <string name="sunString">SUN</string>
+    <string name="monString">MON</string>
+    <string name="tueString">TUE</string>
+    <string name="wedString">WED</string>
+    <string name="thuString">THU</string>
+    <string name="friString">FRI</string>
+    <string name="satString">SAT</string>
+    <string name="todo">TODO</string>
+</resources>
